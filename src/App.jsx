@@ -39,6 +39,7 @@ function App() {
         return (
           <Coin 
           key={coin.id}
+          coinId={coin.market_cap_rank}
           name={coin.name}
           price={coin.current_price}
           symbol={coin.symbol}
